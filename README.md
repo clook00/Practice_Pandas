@@ -1,25 +1,25 @@
 # Practice_Pandas
 
-df = pd.DataFrame(dict)
+1) df = pd.DataFrame(dict)
 
-df.index = ["BR", "RU", "IN", "CH", "SA"]
+2) df.index = ["BR", "RU", "IN", "CH", "SA"]
 df
 
-df['country']
+3) df['country']
 
-df[['country']]
+4) df[['country']]
 
-df[['country', 'area']]
+5) df[['country', 'area']]
 
-df[0:4]
+6) df[0:4]
 
-df[3:5]
+7) df[3:5]
 
-df.iloc[2]
+8) df.iloc[2]
 
-df.loc[['IN','CH'],['area','population']]
+9) df.loc[['IN','CH'],['area','population']]
 
-grades=pd.read_csv("Lectures/15_Grades.csv")
+10) grades=pd.read_csv("Lectures/15_Grades.csv")
 grades.head()
 list(grades.columns)
 list(grades.index)
